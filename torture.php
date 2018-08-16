@@ -12,4 +12,3 @@ $command = new TortureCommand();
 $application->add($command);
 
 $application->setDefaultCommand($command->getName(), true);
-$application->run();
